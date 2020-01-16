@@ -1,0 +1,75 @@
+/* ==========================================================================
+ Section
+========================================================================== */
+
+.section {
+
+    position: relative;
+    
+    .column-media h2 {
+        margin: 15px 0;
+    }
+    .column-media p,
+    .column-text p {
+        font-size: 0.8rem;
+    }
+    .style-up {
+        text-align: left;
+        padding-right: 2rem;
+        transform: translateY(5%);
+    }
+    .style-down {
+        text-align: right;
+        padding-left: 2rem;
+        transform: translateY(-5%);
+    }
+}
+
+@media (max-width: 992px) {
+    .section {
+        .style-up {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            transform: translateY(0);
+        }
+        .style-down {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            transform: translateY(0);
+        }
+    }
+}
+
+/**
+ * Block Text Testing
+ */
+.section {
+    &.block-text .contains {
+        overflow: hidden;
+        background-color: #efefef;
+    }
+    &.block-text .column-text {
+        padding: 5rem;
+    }
+    &.block-text .column-text h2,
+    &.block-text .column-text p {
+        color: #121212;
+    }
+}
+
+/**
+ * Block Pair Testing
+ */
+.section.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section.min-height {
+    min-height: 100vh;
+}

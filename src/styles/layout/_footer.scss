@@ -1,0 +1,39 @@
+/* ==========================================================================
+ Footer
+========================================================================== */
+
+.footer {
+    position: relative;
+    .meta {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .meta strong {
+        display: inline-block;
+        @include font-family-header(400);
+        margin-right: 5px;
+    }
+    .meta strong:first-of-type {
+        @include font-family-header(700);
+        letter-spacing: -.1rem;
+    }
+    .meta p {
+        font-size: .8rem;
+        font-family: $font-family-copy;
+    }
+    .meta p:first-of-type {
+        margin-top: 20px;
+    }
+    .meta p.lede {
+        @include font-family-header(700);
+    }
+    .copyright {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .copyright p {
+        margin: 0;
+        @include font-family-header(500);
+        font-size: .6rem;
+    }
+}

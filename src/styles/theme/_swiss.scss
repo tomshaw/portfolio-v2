@@ -1,0 +1,82 @@
+/* ==========================================================================
+ SWISS - MAIN THEME STYLES. HEADER, NAVIGATION, FOOTER
+========================================================================== */
+
+.swiss {
+    background-color: #fff;
+
+    > div.container-fluid.stripes > div > div > div > div {
+        border-left: 1px solid #ffddd7;
+    }
+
+    /* Start border colours */
+    hr.rule {
+        border-color: #8a2c1c !important;
+    }
+    /* End border colours */
+
+    /* Start main logo */
+    .logo #svg-main-logo .t,
+    .logo #svg-main-logo .o,
+    .logo #svg-main-logo .m,
+    .logo #svg-main-logo .s,
+    .logo #svg-main-logo .h,
+    .logo #svg-main-logo .a,
+    .logo #svg-main-logo .w {
+        fill: #8a2c1c !important;
+    }
+    /* end main logo */
+
+    /* Start nav links */
+    .menu li a {
+        color: #000 !important;
+    }
+    /* End nav links */
+
+    /* start pull menu */
+    .pull-menu .contains .pull-menu-inner {
+        background-color: #8a2c1c !important;
+    }
+    /* end pull menu */
+
+    /* Start header. */
+    .header .creative span {
+        color: #000 !important;
+    }
+    /* End header. */
+
+    /* Start footer. */
+    .footer .meta strong {
+        color: #000 !important; 
+    }
+    .footer .meta p {
+        color: #000 !important; 
+    }
+    .footer .meta ul li {
+        color: #8a2c1c !important; 
+    }
+    .footer .meta ul li a {
+        color: #000 !important; 
+    }
+    .footer .copyright {
+        color: #000 !important; 
+    }
+    /* End footer. */
+
+    /* Start page about */
+    article[class^="page-"] .info h1,
+    article[class^="page-"] .info h2 {
+        color: #000 !important; 
+    }
+    article[class^="page-"] .info p {
+        color: #000 !important; 
+    }
+    article[class^="page-"] .info table th,
+    article[class^="page-"] .info table td {
+        color: #000 !important; 
+    }
+    article[class^="page-"] .info .divider {
+        background: #8a2c1c !important; 
+    }
+    /* End page about */
+}

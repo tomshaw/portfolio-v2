@@ -1,0 +1,295 @@
+/* ==========================================================================
+ Menu 
+========================================================================== */
+
+.pull-menu {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    cursor: grab;
+    transition: all .1s ease-in-out;
+
+    &.active {
+        cursor: -webkit-grabbing;
+        cursor: grabbing;
+    }
+
+    &.show {
+        height: 100% !important;
+    }
+
+    .pullmenu-icon {
+        width: 16px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        right: 50%;
+        bottom: 25px;
+        transition: opacity .2s ease-in-out;
+    }
+
+    .pullmenu-icon:after {
+        content: '';
+        width: 8px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 10px;
+        left: 4px;
+    }
+
+    .pullmenu-icon:before {
+        content: '';
+        width: 16px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 5px;
+        left: 0;
+    }
+
+    .pullmenu-icon.hide {
+        opacity: 0;
+    }
+
+    .contains {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pull-menu-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #8a2c1c;
+    }
+
+}
+
+/* ==========================================================================
+ Burger 
+========================================================================== */
+
+.pull-menu {
+
+    &.navopen .vertical-text {
+        opacity: 1;
+        transition: opacity 2s cubic-bezier(.23,1,.32,1);
+    }
+
+}
+
+.pull-menu {
+
+    .menu {
+        text-align: left;
+        list-style-type: none;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate3d(0,-100%,0);
+        transition: transform .51s cubic-bezier(.23,1,.32,1);  
+    }
+
+    &.navopen .menu {
+        transform: translateX(0%) translateY(-50%) translateZ(0);
+        transition: transform .66s cubic-bezier(.23,1,.32,1);
+    }
+
+    .menu li {
+        background: #12171d;
+        margin: 15px 0;
+        opacity: 0;
+        transform: translate3d(0,-10vh,0);
+        transition-delay: .1s;
+        transition: transform .22s cubic-bezier(.165,.84,.44,1), opacity .27s ease;
+    }
+
+    &.navopen .menu li {
+        opacity: 1;
+        transform: translateZ(0);
+        transition: transform .91s cubic-bezier(.165,.84,.44,1), opacity .83s ease;
+    }
+
+    &.navopen .menu li:nth-child(4n+1) {
+        transition-delay: .6s;
+    }
+
+    &.navopen .menu li:nth-child(4n+2) {
+        transition-delay: .5s;
+    }
+
+    &.navopen .menu li:nth-child(4n+3) {
+        transition-delay: .4s;
+    }
+
+    &.navopen .menu li:nth-child(4n) {
+        transition-delay: .3s;
+    }
+
+    .menu li a {
+        display: block;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 0.9;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0;
+        padding: 5px;
+    }
+
+    .menu li a:hover {
+        color: #713132;
+    }
+
+    .menu li a.is-active {
+        color: #cfb73d;
+    }
+
+}
+
+/* ==========================================================================
+ Burger 
+========================================================================== */
+
+.burger {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+
+    background: red;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    z-index: 10000;
+    animation: spin 1000ms linear 2, moveTopToBottom 1s linear;
+    transition: all 1s ease;
+}
+
+.burger:hover {
+	transform: rotate(360deg);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.burger .icon {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 2px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.burger .icon::before, 
+.burger .icon::after {
+    background-color: #fff;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    transform: translateY(6px);
+    transition: all 0.5s;
+}
+
+.burger .icon::before {
+    transform: translateY(-6px);
+}
+
+.burger.is-open .icon {
+    background-color: transparent;
+}
+
+.burger.is-open .icon::before {
+    background-color: #fff;
+    transform: translateY(0) rotate(45deg);
+}
+
+.burger.is-open .icon::after {
+    background-color: #fff;
+    transform: translateY(0) rotate(-45deg);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes moveTopToBottom {
+  0%   { top: -100px; }
+  100% { top: 0; }
+}
+
+/* ==========================================================================
+Clock
+========================================================================== */
+
+.pull-menu {
+    &.navopen .wall-clock {
+        opacity: 1;
+        transform: scale(1);
+        transition-delay: .5s;
+        transition: transform 1s cubic-bezier(.165,.84,.44,1), opacity 1s ease-in-out;
+    }
+}
+
+/* ==========================================================================
+Weather
+========================================================================== */
+
+.pull-menu {
+    .open-weather {
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
+        opacity: 0;
+    }
+    &.navopen .open-weather {
+        opacity: 1;
+        transform: scale(1);
+        transition-delay: .5s;
+        transition: transform 1s cubic-bezier(.165,.84,.44,1), opacity 1s ease-in-out;
+    }
+    .open-weather .open-weather-wrap {
+		display: inline-block;
+	}
+	.open-weather span {
+		position: relative;
+		display: block;
+	}
+	.open-weather .temperature {
+		color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        vertical-align: text-bottom;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+	}
+	.open-weather .temperature i {
+		position: relative;
+		top: -1.5rem;
+		left: .1rem;
+		color: #fff;
+        font-family: $font-family-lite;
+		font-size: .8rem;
+	}
+	.open-weather .location {
+		color: #fff;
+        font-family: $font-family-lite;
+        font-size: .8rem;
+        margin-left: 1px;
+        margin-top: -5px;
+	}
+}

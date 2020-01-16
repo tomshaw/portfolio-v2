@@ -1,0 +1,162 @@
+/* ==========================================================================
+ Grid Column
+========================================================================== */
+
+.block-grid {
+    .block {
+        display: block;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        z-index: 4;
+        margin-bottom: 30px;
+    }
+    .block .info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 15px;
+        z-index: 4;
+        transition: opacity .3s ease-out;
+    }
+    .block .info small {
+        color: #fff;
+        font-family: $font-family-copy;
+        font-size: .4rem;
+        line-height: .4rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+    }
+    .block .info h2,
+    .block .info h2 a {
+        color: #fff;
+        font-size: .9rem;
+        line-height: .9rem;
+        //letter-spacing: -1px;
+        margin: .5rem 0;
+        text-decoration: none;
+    }
+    .block .info h2 a {
+        cursor: pointer;
+    }
+    .block .info p {
+        color: #fff;
+        font-size: .6rem;
+        line-height: .9rem;
+        max-width: 99%;
+        margin-top: 1em;
+        opacity: 0;
+        transform: translate3d(-5px, 0, 0);
+        transition: opacity .3s ease-out .1s, transform .3s ease-out .1s;
+    }
+    .block:hover .info p {
+        opacity: .8;
+        transform: translate3d(0,0,0);
+    }
+    .block .info span {
+        display: inline-block;
+        position: absolute;
+        bottom: 1rem;
+        opacity: 0;
+        transform: translate3d(0, 5px, 0);
+        transition: opacity .3s ease-in 0s, transform .3s ease-in 0s;
+    }
+    .block:hover .info span {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        transition: opacity .3s ease-out .3s,transform .3s ease-out .3s;
+    }
+    .block .info span,
+    .block .info span a {
+        color: #fff;
+        font-size: 0.4rem;
+        line-height: 1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .block .info span a {
+        cursor: pointer;
+    }
+    .block:hover .media img,
+    .block:hover .media video {
+        opacity: 0;
+    }
+    .media {
+        position: relative;
+    }
+    .media > img,
+    .media > video {
+        opacity: 1;
+        width: 100%;
+        height: auto;
+        backface-visibility: hidden;
+        z-index: 2;
+        transition: opacity .5s ease-out, transform .5s cubic-bezier(.215,.61,.355,1);
+    }
+    .media .overlay {
+        background: linear-gradient(135deg,#000 0%,#fff 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+    }
+}
+
+/* ==========================================================================
+ Media
+========================================================================== */
+
+@media (min-width: 480px) {
+    .block-grid {
+        .block .info {
+            padding: 15px;
+        }
+    }
+}
+
+@media (min-width: 580px) {
+    .block-grid {
+        .block .info {
+            padding: 20px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .block-grid {
+        .block .info {
+            padding: 25px;
+        }
+    }
+}
+
+@media (min-width: 922px) {
+    .block-grid {
+        .block .info {
+            padding: 30px;
+        }
+        .block .info p {
+            max-width: 95%;
+        }
+        .block .info span,
+        .block .info span a {
+            font-size: 0.5rem;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .block-grid {
+        .block .info {
+            padding: 35px;
+        }
+        .block .info p {
+            margin-top: 2em;
+        }
+    }
+}

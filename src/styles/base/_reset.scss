@@ -1,0 +1,79 @@
+/* ==========================================================================
+ Reset 
+========================================================================== */
+
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+*,:after,:before,html {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: calc(0.8vw + 1vh + 0.2vmin);
+}
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 100vh;
+    font-family: $font-family-copy;
+    user-select: none;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #000;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 6px -1px #ddd;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* ==========================================================================
+ Main
+========================================================================== */
+
+.application.is-loading {
+    cursor: wait;
+}
+
+/* ==========================================================================
+Container
+========================================================================== */
+
+.contains {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1640px;
+}

@@ -1,0 +1,68 @@
+/* ==========================================================================
+ MELLOW - MAIN THEME STYLES. HEADER, NAVIGATION, FOOTER
+========================================================================== */
+
+.mellow {
+    background-color: #ffca08;
+
+    /* Start border colours */
+    hr.rule {
+        border-color: #231f20 !important;
+    }
+    /* End border colours */
+
+    /* Start main logo */
+    .logo #svg-main-logo .t,
+    .logo #svg-main-logo .o,
+    .logo #svg-main-logo .m,
+    .logo #svg-main-logo .s,
+    .logo #svg-main-logo .h,
+    .logo #svg-main-logo .a,
+    .logo #svg-main-logo .w {
+        fill: #231f20 !important;
+    }
+    /* end main logo */
+
+    /* Start nav links */
+    .menu li a {
+        color: #231f20 !important;
+    }
+    /* End nav links */
+
+    /* Start header. */
+    .header .creative span {
+        color: #231f20 !important;
+    }
+    /* End header. */
+
+    /* Start footer. */
+    .footer .meta strong {
+        color: #231f20 !important; 
+    }
+    .footer .meta p {
+        color: #231f20 !important; 
+    }
+    .footer .meta ul li,
+    .footer .meta ul li a {
+        color: #231f20 !important; 
+    }
+    .footer .copyright {
+        color: #231f20 !important; 
+    }
+    /* End footer. */
+
+    /* Start page contact */
+    .page-about .info h1,
+    .page-about .info h2,
+    .page-about .info p {
+        color: #231f20 !important; 
+    }
+    .page-about .info table th,
+    .page-about .info table td {
+        color: #231f20 !important; 
+    }
+    .page-about .info .divider {
+        background: #231f20 !important; 
+    }
+    /* End page contact */
+}

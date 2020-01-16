@@ -1,0 +1,339 @@
+[{
+    "section": "Gallery",
+    "title": "Plasma Melting Tunnel",
+    "tagline": "Autodesk 3D Studio",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "darkplus",
+    "slug": "melter",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#a31009",
+    "gradient_end": "#ed9623",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/melter/list/melter_xfyfx7_c_scale,w_200.jpg"
+        }, {
+            "width": "380w",
+            "source": "/assets/img/gallery/melter/list/melter_xfyfx7_c_scale,w_380.jpg"
+        }, {
+            "width": "515w",
+            "source": "/assets/img/gallery/melter/list/melter_xfyfx7_c_scale,w_515.jpg"
+        }, {
+            "width": "637w",
+            "source": "/assets/img/gallery/melter/list/melter_xfyfx7_c_scale,w_637.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/melter/list/melter_xfyfx7_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "section": "Gallery",
+    "title": "Contemporary Textures",
+    "tagline": "Autodesk 3D Studio",
+    "description": "The Contemporary Textures concept was designed with Autodesk 3D Studio. Miscellaneous textures were mapped to rectangle shapes to give the appearance of rolls of film on a gradient grey background.",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "gold-silver-buyers",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#525252",
+    "gradient_end": "#3c3c3c",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/textures/list/textures_mc48n5_c_scale,w_200.jpg"
+        }, {
+            "width": "402w",
+            "source": "/assets/img/gallery/textures/list/textures_mc48n5_c_scale,w_402.jpg"
+        }, {
+            "width": "553w",
+            "source": "/assets/img/gallery/textures/list/textures_mc48n5_c_scale,w_553.jpg"
+        }, {
+            "width": "690w",
+            "source": "/assets/img/gallery/textures/list/textures_mc48n5_c_scale,w_690.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/textures/list/textures_mc48n5_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "section": "Gallery",
+    "title": "Notepad Family",
+    "tagline": "Adobe Photoshop",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "notepad-family",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#bd813b",
+    "gradient_end": "#f8da80",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/notepads/list/notepad-people_rncwvu_c_scale,w_200.jpg"
+        }, {
+            "width": "429w",
+            "source": "/assets/img/gallery/notepads/list/notepad-people_rncwvu_c_scale,w_429.jpg"
+        }, {
+            "width": "598w",
+            "source": "/assets/img/gallery/notepads/list/notepad-people_rncwvu_c_scale,w_598.jpg"
+        }, {
+            "width": "752w",
+            "source": "/assets/img/gallery/notepads/list/notepad-people_rncwvu_c_scale,w_752.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/notepads/list/notepad-people_rncwvu_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "section": "Gallery",
+    "title": "Curious Martian",
+    "tagline": "Adobe Photoshop",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "curious-martian",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#a50000",
+    "gradient_end": "#0626f7",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/martian/list/martian_uo1hz7_c_scale,w_200.jpg"
+        }, {
+            "width": "547w",
+            "source": "/assets/img/gallery/martian/list/martian_uo1hz7_c_scale,w_547.jpg"
+        }, {
+            "width": "739w",
+            "source": "/assets/img/gallery/martian/list/martian_uo1hz7_c_scale,w_739.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/martian/list/martian_uo1hz7_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "section": "Gallery",
+    "title": "Flash Glow",
+    "tagline": "Adobe Photoshop",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "flash-glow",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#000",
+    "gradient_end": "#efefef",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/flashglow/list/flashglow_qizuwg_c_scale,w_200.jpg"
+        }, {
+            "width": "552w",
+            "source": "/assets/img/gallery/flashglow/list/flashglow_qizuwg_c_scale,w_452.jpg"
+        }, {
+            "width": "649w",
+            "source": "/assets/img/gallery/flashglow/list/flashglow_qizuwg_c_scale,w_649.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/flashglow/list/flashglow_qizuwg_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "section": "Gallery",
+    "title": "Contemporary Cover",
+    "tagline": "Adobe Photoshop",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "contemporary-cover",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#873300",
+    "gradient_end": "#996600",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/fcontempcover/list/contemporary-cover_n6sxau_c_scale,w_200.jpg"
+        }, {
+            "width": "489w",
+            "source": "/assets/img/gallery/contempcover/list/contemporary-cover_n6sxau_c_scale,w_489.jpg"
+        }, {
+            "width": "637w",
+            "source": "/assets/img/gallery/contempcover/list/contemporary-cover_n6sxau_c_scale,w_637.jpg"
+        }, {
+            "width": "791w",
+            "source": "/assets/img/gallery/contempcover/list/contemporary-cover_n6sxau_c_scale,w_791.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/contempcover/list/contemporary-cover_n6sxau_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "section": "Gallery",
+    "title": ["Flower", "Dreams"],
+    "tagline": "Adobe Photoshop",
+    "description": "Created specifically for social media and a certain special person in my life, Flower Dreams highlights a unique combination of colors, flowers and a smart object to quickly insert a photo.",
+    "meta_title": "Flower Dreams | Tom Shaw",
+    "meta_description": "Created specifically for social media and a certain special person in my life, Flower Dreams highlights a unique combination of colors, flowers and a smart object to quickly insert a photo.",
+    "theme": "lightplus",
+    "slug": "flowerdreams",
+    "resource": "/gallery/flowerdreams",
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#b55892",
+    "gradient_end": "#f1ebce",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/flower-dreams/list/flower-dreams_csjmpi_c_scale,w_200.jpg"
+        }, {
+            "width": "413w",
+            "source": "/assets/img/gallery/flower-dreams/list/flower-dreams_csjmpi_c_scale,w_413.jpg"
+        }, {
+            "width": "580w",
+            "source": "/assets/img/gallery/flower-dreams/list/flower-dreams_csjmpi_c_scale,w_580.jpg"
+        }, {
+            "width": "735w",
+            "source": "/assets/img/gallery/flower-dreams/list/flower-dreams_csjmpi_c_scale,w_735.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/flower-dreams/list/flower-dreams_csjmpi_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": [{
+        "type": "single",
+        "styles": [],
+        "title": "SmokeStik Electronic Cigarettes",
+        "media_sets": [{
+            "type": "image",
+            "sizes": "(max-width: 1400px) 100vw, 1400px",
+            "breakpoints": [{
+                "width": "200w",
+                "source": "/assets/img/gallery/flower-dreams/view/flower-dreams_hryc1b_c_scale,w_200.jpg"
+            }, {
+                "width": "790w",
+                "source": "/assets/img/gallery/flower-dreams/view/flower-dreams_hryc1b_c_scale,w_790.jpg"
+            }, {
+                "width": "1179w",
+                "source": "/assets/img/gallery/flower-dreams/view/flower-dreams_hryc1b_c_scale,w_1179.jpg"
+            }, {
+                "width": "1535w",
+                "source": "/assets/img/gallery/flower-dreams/view/flower-dreams_hryc1b_c_scale,w_1535.jpg"
+            }, {
+                "width": "1920w",
+                "source": "/assets/img/gallery/flower-dreams/view/flower-dreams_hryc1b_c_scale,w_1920.jpg"
+            }]
+        }]
+    }]
+}, {
+    "section": "Gallery",
+    "title": "Azteca",
+    "tagline": "Adobe Photoshop",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "azteca",
+    "resource": false,
+    "selector": ".page-gallery",
+    "element": "page-gallery",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": false,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/gallery/azteca/list/azteca_rmhuct_c_scale,w_200.jpg"
+        }, {
+            "width": "404w",
+            "source": "/assets/img/gallery/azteca/list/azteca_rmhuct_c_scale,w_404.jpg"
+        }, {
+            "width": "553w",
+            "source": "/assets/img/gallery/azteca/list/azteca_rmhuct_c_scale,w_553.jpg"
+        }, {
+            "width": "727w",
+            "source": "/assets/img/gallery/azteca/list/azteca_rmhuct_c_scale,w_727.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/gallery/azteca/list/azteca_rmhuct_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}]

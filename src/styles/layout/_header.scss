@@ -1,0 +1,36 @@
+/* ==========================================================================
+ Header
+========================================================================== */
+
+.header {
+    position: relative;
+    /*margin-top: 40px;*/
+    user-select: none;
+    .creative {
+        position: relative;
+        @include font-family-header(700);
+        font-size: 4rem;
+        line-height: 4rem;
+        text-transform: lowercase;
+        vertical-align: text-bottom;
+    }
+    .creative span {
+        display: inline-block;
+        opacity: 1;
+        transition: 1s transform ease-out, .2ms opacity ease-out;
+    }
+    .creative span.bold {
+        font-weight: 700;
+        letter-spacing: -.33rem;
+    }
+    .creative span.lite {
+        font-weight: 300;
+        letter-spacing: -.15rem;
+        padding-left: 5px;
+    }
+}
+
+.is-loading .header .creative span {
+    opacity: 0;
+    transform: translateX(-100%) translateZ(0);
+}

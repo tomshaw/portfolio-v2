@@ -1,0 +1,84 @@
+/* ==========================================================================
+ DARKPLUS - MAIN THEME STYLES. HEADER, NAVIGATION, FOOTER
+========================================================================== */
+
+.darkplus {
+    background-color: #000;
+
+    /* Start border colours */
+    hr.rule {
+        border-color: #fff !important;
+    }
+    /* End border colours */
+
+    /* Start main logo */
+    .logo #svg-main-logo .t,
+    .logo #svg-main-logo .o,
+    .logo #svg-main-logo .m,
+    .logo #svg-main-logo .s,
+    .logo #svg-main-logo .h,
+    .logo #svg-main-logo .a,
+    .logo #svg-main-logo .w {
+        fill: #fff !important;
+    }
+    /* end main logo */
+
+    /* Start nav links */
+    .header {
+        .menu li a {
+            color: #fff !important;
+        }
+    }
+    /* End nav links */
+
+    /* Start header. */
+    .header .creative span {
+        color: #fff !important;
+    }
+    /* End header. */
+
+    /* Start footer. */
+    .footer .meta strong {
+        color: #fff !important; 
+    }
+    .footer .meta strong:last-of-type {
+        color: #fff !important; 
+    }
+    .footer .meta p {
+        color: #fff !important; 
+    }
+    .footer .meta ul li {
+        color: #fff !important; 
+    }
+    .footer .meta ul li a {
+        color: #fff !important; 
+    }
+    .footer .copyright {
+        color: #fff !important; 
+    }
+    /* End footer. */
+
+    /* Start page grid/list */
+    article.page h1,
+    article.page h2,
+    article.page p {
+        color: #fff;
+    }
+    /* Start page grid/list */
+
+    /* Start page about */
+    .page-about .info h1,
+    .page-about .info h2,
+    .page-about .info li,
+    .page-about .info p {
+        color: #fff !important; 
+    }
+    .page-about .info table th,
+    .page-about .info table td {
+        color: #fff !important; 
+    }
+    .page-about .info .divider {
+        background: #fff !important; 
+    }
+    /* End page about */
+}

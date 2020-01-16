@@ -1,0 +1,19 @@
+/* ==========================================================================
+Article Header
+========================================================================== */
+
+.block-intro {
+	position: relative;
+	padding-bottom: 20px;
+    
+	p {
+        @include font-family-copy(400);
+        font-size: .8rem;
+        margin: 1rem 0 .5rem 0;
+    }
+    
+    p[class*="col-"] {
+        padding-left: 0 !important;
+    }
+
+}

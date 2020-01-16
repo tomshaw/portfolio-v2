@@ -1,0 +1,28 @@
+/* ==========================================================================
+ Buttons 
+========================================================================== */
+
+.project-button {
+    color: #fff !important;
+	background: #F7CB4A;
+	display: inline-block;
+
+    font-family: 'Helvetica65', sans-serif;
+    font-size: 11px;
+    text-align: center;
+	letter-spacing: 1px;
+	line-height: 11px;
+    text-transform: uppercase;
+	padding: 11px 15px;
+    margin: 0;
+    outline: none;
+    -webkit-transition-duration: 0.1s;
+            transition-duration: 0.1s;
+}
+
+.project-button:hover {
+	color: #fff;
+    background: #cc3366;
+    -webkit-transition-duration: 0.235s;
+            transition-duration: 0.235s;
+}

@@ -1,0 +1,39 @@
+/* ==========================================================================
+Vertical Text
+========================================================================== */
+
+.vertical-text {
+	position: absolute;
+	opacity: 0;
+}
+
+.vertical-text p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 10vh;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.vertical-text .separator {
+	background: #fff;
+	display: inline-block;
+	width: 40px;
+	height: 2px;
+	margin: 3px 10px 5px 10px;
+}
+
+.vertical-text.info {
+	top: 5%;
+	right: 2%;
+	transform-origin: top right;
+	transform: rotate(90deg) translateX(100%);
+}
+
+.vertical-text.scroll-down {
+	left: 35px;
+	bottom: 5%;
+	transform-origin: top left;
+	transform: rotate(-90deg);
+}

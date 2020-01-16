@@ -1,0 +1,37 @@
+/* ==========================================================================
+ Preloader 
+========================================================================== */
+
+.loader {
+    background: #fff;
+    position: fixed; /* ensure fixed for correct scroll height */
+    top: 0;
+    left: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    overflow: hidden;
+    pointer-events: none;
+    transition: 1.2s ease;
+}
+
+.loader span {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    border: 0.14em solid rgba(0, 0, 0, 0.1);
+    border-top-color: #03a7e5;
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+    margin: 2em;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

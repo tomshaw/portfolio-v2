@@ -1,0 +1,187 @@
+/* ==========================================================================
+ Icons
+========================================================================== */
+
+.icon-linkedin {
+    background: #006599;
+    background: linear-gradient(#0d6d9e, #006091);
+    border-bottom: 1px solid #00517a;
+    color: #80b2cc;
+}
+
+.icon-linkedin:hover {
+    color: #cce0eb;
+    text-shadow: 0px 1px 0px #00517a;
+}
+
+.icon-twitter {
+    background: #2b97f1;
+    background: linear-gradient(#369cf2, #298fe5);
+    border-bottom: 1px solid #2279c1;
+    color: #95cbf8;
+}
+
+.icon-twitter:hover {
+    color: #d5eafc;
+    text-shadow: 0px 1px 0px #2279c1;
+}
+
+.icon-codepen {
+    background: #3b5a9b;
+    background: linear-gradient(#4562a0, #385693);
+    border-bottom: 1px solid #2f487c;
+    color: #9dadcd;
+}
+
+.icon-codepen:hover {
+    color: #d8deeb;
+    text-shadow: 0px 1px 0px #2f487c;
+}
+
+.icon-instagram {
+    background: #527fa6;
+    background: linear-gradient(#5b85aa, #4e799e);
+    border-bottom: 1px solid #426685;
+    color: #a9bfd3;
+}
+
+.icon-instagram:hover {
+    color: #dce5ed;
+    text-shadow: 0px 1px 0px #426685;
+}
+
+.icon-dribbble {
+    background: #ef5a92;
+    background: linear-gradient(#f06297, #e3568b);
+    border-bottom: 1px solid #bf4875;
+    color: #f7adc9;
+}
+
+.icon-dribbble:hover {
+    color: #fcdee9;
+    text-shadow: 0px 1px 0px #bf4875;
+}
+
+.icon-github {
+    background: #4284c0;
+    background: linear-gradient(#4b8ac3, #3f7db6);
+    border-bottom: 1px solid #356a9a;
+    color: #a1c2e0;
+}
+
+.icon-github:hover {
+    color: #d9e6f2;
+    text-shadow: 0px 1px 0px #356a9a;
+}
+
+.icon-email {
+    background: #00a8ec;
+    background: linear-gradient(#00a8ec, #00a8ec);
+    border-bottom: 1px solid #00a8ec;
+    color: #a1c2e0;
+}
+
+.icon-email:hover {
+    color: #d9e6f2;
+    text-shadow: 0px 1px 0px #356a9a;
+}
+
+.icon-audio {
+    background: #3b5a9b;
+    background: linear-gradient(#4562a0, #385693);
+    border-bottom: 1px solid #2f487c;
+    color: #9dadcd;
+}
+
+.icon-audio:hover {
+    color: #d8deeb;
+    text-shadow: 0px 1px 0px #2f487c;
+}
+
+/* ==========================================================================
+ Social Icons
+========================================================================== */
+
+.audio-icon {
+    position: relative;
+}
+
+.audio-icon .audio-icon-bg {
+    background: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 11px;
+    margin-right: 1px;
+    opacity: 1;
+}
+
+.audio-icon .audio-icon-bg:nth-child(1) {
+    height: 2px;
+    animation-delay: 0s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(2) {
+    height: 4px;
+    animation-delay: .2s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(3) {
+    height: 10px;
+    animation-delay: .4s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(4) {
+    height: 11px;
+    animation-delay: .6s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(5) {
+    height: 6px;
+    animation-delay: .8s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(6) {
+    height: 8px;
+    animation-delay: 1s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(7) {
+    height: 4px;
+    animation-delay: 1.2s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(8) {
+    height: 2px;
+    animation-delay: 1.4s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(9) {
+    height: 2px;
+    animation-delay: 1.6s;
+}
+
+.audio-icon.is-playing .audio-icon-bg {
+    transition-delay: .2s;
+    animation-name: sound;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sound {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+
+    25% {
+        transform: scaleY(.5);
+    }
+
+    50% {
+        transform: scaleY(.85);
+    }
+
+    75% {
+        transform: scaleY(.25);
+    }
+}
